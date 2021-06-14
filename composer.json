@@ -2,10 +2,6 @@
     "name": "voops/logovoop",
     "description": "my logger for task",
     "type": "metapackage",
-    "require": {
-        "monolog/monolog": "^2.2",
-        "longman/telegram-bot": "^0.64.0"
-    },
     "license": "Open Source",
     "authors": [
         {
@@ -17,5 +13,8 @@
         "psr-4": {
             "Logovoop\\": "src/Logovoop"
         }
+    },
+    "require": {
+        "monolog/monolog": "^2.2"
     }
 }
